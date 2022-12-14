@@ -1,0 +1,85 @@
+.Prefooter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: 5vmax 0 0;
+    padding: 1vmax;
+    background-color: white;
+    padding-bottom: 0;
+}
+
+.Prefooter>div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66, 66, 66, 0.829);
+    cursor: pointer;
+}
+
+.Prefooter>div:hover svg {
+    fill: rgb(34 34 34)
+}
+
+.Prefooter>div:hover p {
+    color: rgb(19, 18, 18);
+}
+
+.Prefooter span {
+    text-align: left;
+}
+
+.Prefooter svg {
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37, 37, 37, 0.322);
+    margin: 2vmax;
+}
+
+.Prefooter2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 150px;
+}
+
+.Prefooter>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prefooter2>div>p {
+    color: rgba(0, 0, 0, 0.842);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+
+.Prefooter2>div>span {
+    color: rgba(51, 51, 51, 0, 842);
+}
+
+.Prefooter2>div>div>input {
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255, 255, 255);
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+
+.Prefooter>div>div>button {
+    border: none;
+    padding: 0.5vmax;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.Prefooter2>div>div {
+    border: 1px solid rgba(126, 126, 126, 0.493);
+}
+
+.Prefooter2>div:nth-child(3) {
+    justify-content: center;
+    align-items: flex-end;
+}
